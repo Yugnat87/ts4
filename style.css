@@ -1,0 +1,100 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  margin: 0;
+  padding: 16px;
+  background: #f7f7f7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0 0 12px 0;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+#backBtn {
+  margin-bottom: 10px;
+  padding: 6px 12px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background: white;
+  margin-bottom: 6px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.15s ease;
+}
+
+li:hover {
+  background: #eee;
+}
+
+.card {
+  background: white;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.obs-field {
+  border-left: 6px solid #f4d03f;
+}
+
+.obs-inspection {
+  border-left: 6px solid #f39c12;
+}
+
+.obs-internal {
+  border-left: 6px solid #95a5a6;
+}
+
+.card ul li {
+  background: none;
+  padding: 4px 0;
+  cursor: default;
+}
+
+.card input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.missing {
+  color: #c0392b;
+}
+
+.ai-box {
+  margin-top: 10px;
+  padding: 8px;
+  background: #eef4ff;
+  border-left: 4px solid #4a6cf7;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.ai-box a {
+  display: inline-block;
+  margin-top: 4px;
+  color: #4a6cf7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.ai-box a:hover {
+  text-decoration: underline;
+}

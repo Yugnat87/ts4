@@ -1,0 +1,20 @@
+{
+  "title": "Troubleshooting",
+
+  "search_placeholder": "Search symptom (ID or description)",
+
+  "back": "← Back",
+
+  "observability": "Observability",
+  "sub_issue": "Sub-issue",
+
+  "field_observable": "Field observable",
+  "inspection_required": "Requires inspection / measurement",
+  "internal_inferred": "Internal / inferred",
+
+  "locked": "Locked – resolve previous level first",
+
+  "sop_missing": "SOP missing – escalate with Symptom ID",
+
+  "ai_support": "AI support available"
+}
